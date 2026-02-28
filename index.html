@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ஆலயங்கள் - The Soul of Tamilnadu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="logo">
+        <a href="#home">
+        <img src="logo.png" alt="Website Logo">
+        </a>
+  </div>
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#introduction">About Us</a>
+    <a href="#famoustemples">Famous Temples</a>
+    <a href="#architecture">Architecture</a>
+    <a href="#grace">Grace & Rythm</a>
+    <a href="#culture">Culture</a>
+  </div>
+  <button id="audioToggle">🔇</button>
+</nav>
+
+<!-- HOME SECTION -->
+<section id="home">
+  <video autoplay muted loop playsinline>
+    <source src="bgvideo.mp4" type="video/mp4">
+  </video>
+  <div class="box">
+    <h1 style="color: #3d0505e5;">Temples of Tamil Nadu</h1>
+    <p>A Journey Through Spiritual Grandeur and Timeless Traditions</p>
+    <p style="font-style: italic;">"Where devotion meets divine architecture"</p>
+    <button style="border-radius: 5px; padding: 10px 20px; background-color: #3d0505b1;">
+      <a href="#introduction" style="text-decoration: none; color: white; font-weight: 500; font-family: 'Segoe UI', sans-serif;">Explore Now</a>
+    </button>
+  </div>
+</section>
+
+<!-- AUDIO -->
+<audio id="bgMusic" loop>
+  <source src="bgmusic.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<!-- Introduction section -->
+  <section id="introduction">
+    <div class="intro-content">
+      <h2>The Spiritual Backbone of Tamil Nadu</h2>
+
+      <p>
+        Tamil Nadu is home to some of the oldest and most majestic temples in the world. These sacred spaces are not just places of worship—they are living testaments to our rich culture, history and faith.
+      </p>
+
+      <p class="intro-tamil">
+        தமிழ் நாட்டின் கோவில்கள், பண்பாட்டுப் பாரம்பரியத்தின் பெருமைதெரிவிக்கும் ஜீவனுள்ள நினைவுச்சின்னங்களாகவும், ஆன்மீக அற்புதங்களாகவும் திகழ்கின்றன.
+      </p>
+
+      <div class="thirukkural">
+        <p class="kural-title">
+          திருக்குறள் 1:
+        </p>
+
+        <p class="kural-lines">
+          அகர முதல எழுத்தெல்லாம் ஆதி<br>
+          பகவன் முதற்றே உலகு.
+        </p>
+
+        <p class="kural-meaning">
+          <strong>Translation:</strong> Just as the letter "அ" (A) is the beginning of all Tamil letters, <br>
+          God is the origin (beginning) of all things in the world.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="famoustemples">
+    <h2>Timeless Temples of Tamil Nadu</h2>
+    <p>
+      "Tamil temples are the native language of art, architecture and spirituality."
+    </p>
+
+    <button onclick="slide(-1)" class="slide-btn left-btn">‹</button>
+
+    <div class="slider-container">
+      <div id="slider">
+        <!-- Temple 1 -->
+        <div class="temple-card">
+          <img src="https://i.redd.it/29eftkcwukm51.png">
+          <p>Meenakshi Amman Temple, Madurai<br>
+            <span>மீனாக்ஷி அம்மன் திருக்கோவில்,<br> மதுரை</span>
+          </p>
+        </div>
+
+        <!-- Temple 2 -->
+        <div class="temple-card">
+          <img src="https://i.redd.it/omywrnf0nqx41.jpg">
+          <p>Brihadeeswarar Temple, Thanjavur<br>
+            <span>பெருவுடையார் திருக்கோவில்,<br> தஞ்சாவூர்</span>
+          </p>
+        </div>
+
+        <!-- Temple 3 -->
+        <div class="temple-card">
+          <img src="https://i.pinimg.com/originals/cf/2d/9b/cf2d9b6a5a970473f2861bddf02d454f.jpg">
+          <p>Ramanathaswamy Temple, Rameswaram<br>
+            <span>இராமநாதசுவாமி  திருக்கோவில், <br>இராமேஸ்வரம்</span>
+          </p>
+        </div>
+
+        <!-- Temple 4 -->
+        <div class="temple-card">
+          <img src="https://th.bing.com/th/id/R.1e00204b348c328e8232b608f2040369?rik=1eo0agntxCSNAQ&riu=http%3a%2f%2fwww.tirthayatra.org%2fwp-content%2fuploads%2f2016%2f04%2f3786918573_a73f14972c_o-1024x768.jpg&ehk=L7oK7hlLPp2HmeJZTuC%2bZpwp09cGcweaKM%2f%2bSz8qmOY%3d&risl=&pid=ImgRaw&r=0">
+          <p>Sri Ranganathaswamy Temple, Srirangam, Trichy<br>
+            <span>அரங்கநாதசுவாமி திருக்கோவில், <br>ஸ்ரீரங்கம், திருச்சி</span>
+          </p>
+        </div>
+
+        <!-- Temple 5 -->
+        <div class="temple-card">
+          <img src="https://hblimg.mmtcdn.com/content/hubble/img/ttd_images_march/mmt/activities/m_Chidambaram_the_nataraja_temple_1_l_667_1000.jpg">
+          <p>Thillai Natarajar Temple, Chidambaram<br>
+            <span>நடராஜர் திருக்கோவில்,<br> சிதம்பரம்</span>
+          </p>
+        </div>
+
+        <!-- Temple 6 -->
+        <div class="temple-card">
+          <img src="https://c2.staticflickr.com/4/3477/3965842943_442871e59f_b.jpg">
+          <p>Kapaleeshwarar Temple, Mylapore, Chennai<br>
+            <span>கபாலீஸ்வரர் திருக்கோவில், <br>மயிலாப்பூர், சென்னை</span>
+          </p>
+        </div>
+
+        <!-- Temple 7 -->
+        <div class="temple-card">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.pl8JP_tbD2E_IOf66WAdvAHaJQ?r=0&w=955&h=1194&rs=1&pid=ImgDetMain&o=7&rm=3">
+          <p>Subramaniya Swamy Temple, Thiruchendur<br>
+            <span>சுப்பிரமணியசுவாமி திருக்கோவில்,<br> திருச்செந்தூர்</span>
+          </p>
+        </div>
+
+        <!-- Temple 8 -->
+        <div class="temple-card">
+          <img src="temple8.png">
+          <p>Arunachaleswarar Temple, Tiruvannamalai<br>
+            <span>அண்ணாமலையார் திருக்கோவில், <br>திருவண்ணாமலை</span>
+          </p>
+        </div>
+
+        <!-- Temple 9 -->
+        <div class="temple-card">
+          <img src="https://ramyashotels.com/wp-content/uploads/2021/03/246510-1536x1152.jpg">
+          <p>Samayapuram Mariyamman Temple, Samayapuram, Trichy<br>
+            <span>சமயபுரம் மாரியம்மன் திருக்கோவில்,<br> திருச்சி</span>
+          </p>
+        </div>
+
+        <!-- Temple 10 -->
+        <div class="temple-card">
+          <img src="temple10.png">
+          <p>Jambhukeswarar Temple, Thiruvanaikaval, Trichy<br>
+            <span>ஜம்புகேஸ்வரர் திருக்கோவில், திருவானைக்காவல், <br> திருச்சி</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <button onclick="slide(1)" class="slide-btn right-btn">›</button>
+  </section>
+
+  <!-- Architecture and Design -->
+  <section id="architecture">
+    <div class="architecture-container">
+      <h2>Architecture and Design</h2>
+
+      <p>
+        The temple architecture of Tamil Nadu is a world-renowned marvel, showcasing the brilliance of ancient engineering, art and devotion. These temples are not only spiritual sanctuaries but also architectural masterpieces that reflect the culture, legacy and craftsmanship of their time.
+      </p>
+
+      <p class="key-title"><strong>Key Features:</strong></p>
+      <ul class="architecture-list">
+        <li>Towering Gopurams (Gateway towers) <span>(கோபுரங்கள்)</span></li>
+        <li>Ornate, Carved pillars <span>(செதுக்கிய தூண்கள்)</span></li>
+        <li>Intricate vimanas (Sanctum towers) <span>(விமானங்கள்)</span></li>
+        <li>Natural ventilation and acoustic design <span>இயற்கை காற்றோட்டம் மற்றும் ஒலி வடிவமைப்பு</span></li>
+        <li>Detailed stone sculptures and frescoes <span>(வெளித்திறந்த பாறைச் சிற்பங்கள் மற்றும் சுவரொப்பங்கள்)</span></li>
+      </ul>
+
+      <p class="key-title"><strong>Famous Architectural Styles:</strong></p>
+      <ul class="architecture-list">
+        <li>Pallava Style <span>(பல்லவா பாணி)</span></li>
+        <li>Chola Style <span>(சோழ பாணி)</span></li>
+        <li>Pandya Style <span>(பாண்டிய பாணி)</span></li>
+        <li>Nayak Style <span>(நாயக்கர் பாணி)</span></li>
+        <li>Dravidian Style <span>(திராவிட பாணி)</span></li>
+      </ul>
+
+      <p>
+        Each temple tells a story—of a dynasty, a deity and the skilled hands that shaped it from stone. Tamil Nadu's temple architecture is a living museum that celebrates the union of art, science and spirituality.
+      </p>
+    </div>
+  </section>
+
+  <!-- Dance Section -->
+<section id="grace">
+  <div class="grace-container">
+    <div class="grace-content">
+      <h3>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Steps of Divinity : Classical Arts in Temples
+      </h3>
+
+      <!-- Tamil Full Paragraph -->
+      <p class="tamil">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;தமிழர் கோயில்கள் பாரம்பரிய கலைகளின் தாயகமாக விளங்குகின்றன. பாரதநாட்டியம், கூத்து, கரகாட்டம், மயிலாட்டம், பொய்க்கால் குதிரை ஆட்டம், ஒயிலாட்டம், தேவராட்டம், பொம்மலாட்டம், தப்பாட்டம், கவடி ஆட்டம் மற்றும் வில்லுப்பாட்டு போன்ற கலைகள் கோயில்களில் பிறந்து வளர்ந்தன. தேவதாசிகள் தினசரி இறைவனுக்காக நடனம் ஆடியார்கள். கோயில்கள் கலைஞர்களுக்கான அரங்கேற்ற அரங்கமாக இருந்தன. திருவிழாக்களில் கோயில்களில் நடன நிகழ்ச்சிகள் நடைபெறும். மண்டபங்கள் இசை மற்றும் நடனத்துக்கான சிறந்த சூழலை வழங்கின. கோயில்கள் சமூகக் கலாசாரத்தின் மையமாக இருந்தன. கலையின் ஊடாக பக்தி வெளிப்பட்டது. இசை, நடனம், நாடகம் எல்லாம் ஒரே இடத்தில் தோன்றின. கோயில்கள் கலை வளர்ச்சி பெற்ற புண்ணிய பூமியாகும். இன்றும் சில கோயில்களில் பாரம்பரிய நடன விழாக்கள் நடைபெற்று வருகின்றன. மக்கள் கலாசாரத்தை அனுபவிக்க கோயில்களை நாடுகின்றனர். தமிழர் பாரம்பரியம் இசை மற்றும் நடனத்தில் மேலோங்கி இருந்தது. கோயில்கள் கலைஞர்களுக்கான களமாக இருந்தன. இவை கலாசார மரபுகளைக் காட்டும் அரிய சாட்சியங்கள்.
+      </p>
+
+      <!-- English Full Paragraph -->
+      <p class="english">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tamil temples stand as the birthplace of many traditional art forms. Dances like Bharatanatyam, Koothu, Karagattam, Mayilattam, Poikkaal Kuthirai Aattam, Oyilattam, Devarattam, Bommalattam, Thappattam, Kavadi Aattam and Villupattu originated and flourished here. Devadasis performed daily dances as offerings to the deity. Temples served as prime venues for artistic debut performances. Dance programs were organized during temple festivals. The mandapams provided excellent settings for music and dance. Temples were hubs of community culture. Devotion was expressed through art. Music, dance and rama all emerged from one sacred space. Temples became holy grounds where arts evolved. Even today, traditional dance festivals are held in some temples. People visit temples to experience cultural depth. Tamil heritage excelled in both music and dance. Temples offered a platform for emerging artists. They are living testaments to our rich cultural legacy.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Culture section -->
+<section id="culture" class="culture-section">
+  <h3 class="culture-heading">Essence of Culture</h3>
+
+  <div class="culture-box">
+    <div class="culture-left">
+      <strong>தமிழர் பண்பாடு</strong> என்பது பாரம்பரியம், பக்தி, கலை மற்றும் சமுதாய ஒற்றுமையால் நெய்யப்பட்ட சித்திரம் ஆகும். ஒவ்வொரு திருநாள், கோவில் வழிபாடு, ஊர்திருவிழாவும் தமிழரின் மூலநடுநிலை, அருள்மிகு அனுபவம் மற்றும் ஒற்றுமையின் அங்கீகாரம் ஆகியவற்றைக் காண்பிக்கின்றன.<br><br>
+      நாதஸ்வரத்தின் இசை, மல்லிகை பூவின் மணம், விடியற்கால கோலங்கள் — இவை அனைத்தும் ஆறு உணர்வுகளையும் தொடும் தனித்துவ கலாசார அனுபவங்களை அளிக்கின்றன.<br><br>
+      தமிழர் கோவில்கள் வெறும் வழிபாட்டிடம் மட்டுமல்ல; அவை பண்பாட்டு மரபுகள் மிகும் வாழ்வூடுகள் ஆகும். ஒவ்வொரு விழாவும் பசுமை, பரம்பரை, பக்தியை கொண்டாடும் ஒரு பெருமையான தருணம்.
+    </div>
+
+    <div class="culture-right">
+      <strong>Tamil culture</strong> is a rich canvas woven with tradition, devotion, art, and unity. Every festival, temple ritual, and local celebration reflects deep spiritual roots, divine experience, and communal harmony.<br><br>
+      The music of Nadaswaram, the scent of jasmine, and the morning kolam patterns engage all six senses to offer a complete cultural immersion.<br><br>
+      Temples in Tamil Nadu are not just places of prayer — they are living cultural centers. Each festival becomes a proud moment to celebrate nature, ancestry and inner faith through traditions.
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    © 2025 Tamil Culture Showcase | Designed by Shriraj S D
+  </div>
+  <div class="footer-links">
+    <a href="mailto:shrirajsd15@gmail.com">
+      <img src="gmail.webp" alt="email_logo" height="20" width="20">
+      Email
+    </a>
+    <a href="https://www.linkedin.com/in/Shriraj-S-D" target="_blank">
+      <img src="https://www.serosoft.com/wp-content/uploads/2017/11/Linkedin_circle.svg_-1100x1100.png" alt="Linkedin_logo" height="20" width="20">
+      LinkedIn
+    </a>
+    <a href="https://www.instagram.com/shriraj_dharmaraj" target="_blank">
+      <img src="instagramlogo.webp" alt="instagram_logo" height="20" width="20">
+      Instagram
+    </a>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
